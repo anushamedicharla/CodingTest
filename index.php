@@ -17,7 +17,46 @@ get_header(); ?>
 					<p class="mid-text">or</p>
 					<a href="#" class="grey-butn">LEARN MORE</a>
 				</div> <!-- centralize-text -->
-			</div> <!-- container -->
-		</div> <!-- container-80 -->
+			</div> <!-- container-80 -->
+
+		<!-- Section - store-truck-money -->
+		</div> <!-- container -->
+		<div class="container">
+			<div class="container-80">
+				<div class="stm" id="store">
+					<div class="icon-div">
+						<span class="icon-shop"></span>
+					</div>
+					<div class="text-div">
+						<h3>THIS IS A STORE</h3>
+						<p>
+							This is a store that people go shopping at. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut nulla ex, congue id elementum vel, scelerisque eget sapien. Pellentesque mattis euismod felis vel pellentesque.
+						</p>
+					</div>
+				</div>
+				<div class="stm" id="truck">
+					<div class="icon-div">
+						<span class="icon-truck"></span>
+					</div>
+					<div class="text-div">
+						<h3>DRIVE A TRUCK</h3>
+						<p>
+							Drive a truck if you need to transport large quantities of stuff. Duis consectetur eleifend ligula nec ullamcorper. Curabitur ornare mauris eget fermentum luctus. Aenean condimentum elit quis efficitur congue. Vestibulum rhoncus porttitor elementum.
+						</p>
+					</div>
+				</div>
+				<div class="stm" id="money">
+					<div class="icon-div">
+						<span class="icon-banknote"></span>
+					</div>
+					<div class="text-div">
+						<h3>MAKE MONEY</h3>
+						<p>
+							Make money because we all have to. Etiam maximus maximus ipsum, sed tempor velit placerat eu. Ut in porta lacus. Vivamus at mi quis massa posuere tincidunt vel justo id leo aliquet convallis.
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
  
 <?php get_footer(); ?>

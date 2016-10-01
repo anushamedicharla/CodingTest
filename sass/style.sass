@@ -1,12 +1,53 @@
+/* icons import */
 
+@import "../node_modules/sass-font-face/_font-face.scss";
+ 
+$font-regular: 'responsive-test-font';
+ 
+@include font-face($font-regular, '../fonts/', 'responsive-test-font', 'responsive-test-font');
+
+/* icon fonts  */
+[class^="icon-"]
+	font-family: 'responsive-test-font'
+	speak: none
+	font-style: normal
+	font-size: 60px
+	color:#4d92de
+	font-weight: normal
+	font-variant: normal
+	text-transform: none
+	line-height: 1
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased
+	-moz-osx-font-smoothing: grayscale
+[class*=" icon-"] 
+	@extend [class^="icon-"]
+
+.icon-menu:before 
+	content: "\e604"
+
+.icon-banknote:before 
+	content: "\e600"
+
+.icon-shop:before 
+	content: "\e601"
+
+.icon-truck:before 
+	content: "\e602"
+
+
+/* Main container defaults */
 .container
 	position: relative
 	overflow: auto
 
+/* container 80% wide defaults */
 .container-80 
 	margin: 0px auto
 	width: 80%	
 	.centralize-text	
+		/* Centralize your inventory section */
 		padding: 30px	
 		width: 40%
 		h1
@@ -33,6 +74,7 @@
 		background-repeat: no-repeat
 		height: 650px
 
+/* header navigation section */
 .site-logo
 	float: left
 	margin-top: 25px
@@ -64,3 +106,30 @@
 		background-color: #eaeaea
 		border-bottom: 2px solid #FFA500
 
+
+
+/* store-truck icons section */
+.stm 
+  	display: inline-block
+  	width: 33%
+  	position: relative
+  	margin: auto 0px;
+
+.stm
+	.icon-div
+		display: inline-block
+		position: absolute
+		top: 0%
+		margin-top: 60px
+		margin-right: 10px
+	.text-div
+		display: inline-block
+		margin-top: 80px
+		margin-left: 70px
+		h3	
+			font-weight: 300
+			font-size: 1.1em
+			color:#4d92de
+		p
+			display: inline-block
+			width: 70%
