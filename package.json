@@ -23,6 +23,7 @@
   "homepage": "https://github.com/anushamedicharla/CodingTest#readme",
   "devDependencies": {
     "gulp": "^3.9.1",
-    "gulp-sass": "^2.3.2"
+    "gulp-sass": "^2.3.2",
+    "sass-font-face": "^1.0.1"
   }
 }
