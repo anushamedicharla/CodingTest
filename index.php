@@ -76,6 +76,5 @@ get_header(); ?>
 				<h5>No credit card. No commitment.</h5>
 			</div> <!-- container-80 -->
 		</div> <!-- container -->
-
  
 <?php get_footer(); ?>

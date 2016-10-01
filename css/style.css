@@ -142,7 +142,8 @@
   text-align: center; }
 
 .container-80 .form-fields {
-  margin: 0px auto; }
+  margin: 0px auto;
+  text-align: center; }
   .container-80 .form-fields input {
     padding: 15px;
     border: none; }
