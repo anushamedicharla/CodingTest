@@ -18,9 +18,9 @@ get_header(); ?>
 					<a href="#" class="grey-butn">LEARN MORE</a>
 				</div> <!-- centralize-text -->
 			</div> <!-- container-80 -->
+		</div> <!-- container -->
 
 		<!-- Section - store-truck-money -->
-		</div> <!-- container -->
 		<div class="container">
 			<div class="container-80">
 				<div class="stm" id="store">
@@ -56,7 +56,26 @@ get_header(); ?>
 						</p>
 					</div>
 				</div>
-			</div>
-		</div>
+			</div> <!-- container-80 -->
+		</div> <!-- container -->
+
+
+		<!-- Contact form - Get started here -->
+		<div class="container email-section">
+			<div class="container-80">
+				<h1>
+						Start your free trail today.
+				</h1>
+				<div class="form-fields">
+				  <form action="<?php the_permalink(); ?>" method="post">
+				    <input type="email" name="email-id" placeholder="email"/>
+				    <input type="text" name="company-name" placeholder="company name"/>
+				    <input type="submit" value="GET STARTED FREE">
+				  </form>
+				</div> <!-- form-fields -->
+				<h5>No credit card. No commitment.</h5>
+			</div> <!-- container-80 -->
+		</div> <!-- container -->
+
  
 <?php get_footer(); ?>
